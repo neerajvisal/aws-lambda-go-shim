@@ -66,6 +66,8 @@ import (
 func Handle(evt json.RawMessage, ctx *runtime.Context) (interface{}, error) {
 	return "Hello, World!", nil
 }
+
+func main(){}
 ```
 
 [<img src="_asset/misc_arrow-up.png" align="right">](#top)
